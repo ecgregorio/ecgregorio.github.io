@@ -2,10 +2,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 2px solid rgba(0,0,0,0.1);
 }
 
 body {
-    background-color: rgb(133, 192, 211);
+    background-color: #eaf4f8;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav ul {
@@ -22,6 +25,24 @@ main {
 
 section {
     margin-bottom: 60px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #0077aa;
+}
+
+h2 {
+    margin-top: 0;
 }
 
 footer {
@@ -52,6 +73,12 @@ footer {
     border-radius: 50%;
 }
 
+.my-logo,
+.featured-photo {
+    max-width: 150px;
+    height: 150px;
+}
+
 #featured {
     display: flex;
     justify-content: center;
@@ -60,4 +87,4 @@ footer {
 #skills,
 #autobiography {
     flex: 1;
-} /* add flex to about me section */
+} /* add flex between skills and autobiography */
