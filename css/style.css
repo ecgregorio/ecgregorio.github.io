@@ -24,6 +24,13 @@ section {
     margin-bottom: 60px;
 }
 
+header,
+main,
+footer {
+    max-width: 1000px;
+    margin: 0 auto;
+} /* center content (add margin) */
+
 #about {
     display: flex;
     gap: 40px;
