@@ -5,7 +5,7 @@ header {
 }
 
 body {
-    background-color: aliceblue;
+    background-color: rgb(133, 192, 211);
 }
 
 nav ul {
@@ -24,6 +24,11 @@ section {
     margin-bottom: 60px;
 }
 
+footer {
+    text-align: center;
+    padding: 30px 0;
+}
+
 header,
 main,
 footer {
@@ -38,9 +43,21 @@ footer {
 .my-logo {
     height: 150px;
     width: 150px;
+    border-radius: 50%;
 }
 
 .featured-photo {
     height: 150px;
     width: 150px;
+    border-radius: 50%;
 }
+
+#featured {
+    display: flex;
+    justify-content: center;
+}
+
+#skills,
+#autobiography {
+    flex: 1;
+} /* add flex to about me section */
