@@ -76,6 +76,7 @@ footer {
 
 #about {
     display: flex;
+    flex-wrap: wrap; /* so the content doesnt overflow on mobile */
     gap: 40px;
 }
 
