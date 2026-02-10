@@ -169,6 +169,28 @@ footer {
     font-size: 0.9rem;
 }
 
+/* move box design here */
+.skill-name {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.skill-logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain; /* dont remove. this fixes squeezing prob */
+    transition: transform 0.2s ease;
+}
+
+/* cool hover effect */
+.skill-logo:hover {
+    transform: scale(1.2) rotate(5deg);
+}
+
 #skills,
 #autobiography {
     flex: 1;
