@@ -101,6 +101,11 @@ footer {
 
 }
 
+footer .my-logo {
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
 header,
 main,
 footer {
