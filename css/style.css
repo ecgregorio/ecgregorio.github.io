@@ -55,10 +55,27 @@ nav a {
     letter-spacing: 0.5px;
     text-transform: uppercase;
     transition: all 0.3s ease;
+    position: relative;
+    padding: 5px 0;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--accent-hover);
+    transition: width 0.3s ease;
 }
 
 nav a:hover {
     color: var(--accent-hover);
+}
+
+nav a:hover::after {
+    width: 100%;
 }
 
 h2 {
@@ -109,6 +126,7 @@ footer {
     transform: scale(1.05);
     transition: transform 0.3s ease;
 }
+
 .project-list {
     display: flex;
     gap: 30px;
