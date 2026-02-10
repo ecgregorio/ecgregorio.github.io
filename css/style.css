@@ -30,7 +30,7 @@ body {
 nav ul {
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 30px;
     padding: 0;
     margin: 0;
 }
@@ -50,8 +50,11 @@ section {
 nav a {
     text-decoration: none;
     color: var(--text-color);
-    font-weight: bold;
-    transition: color 0.3s ease;
+    font-weight: 600;
+    font-size: 1.1rem; /* 1.1 times size of root element (basically make text bigger) */
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
 }
 
 nav a:hover {
