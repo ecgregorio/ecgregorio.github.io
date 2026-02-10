@@ -115,9 +115,11 @@ footer {
 }
 
 .my-logo {
-    height: 150px;
-    width: 150px;
+    height: 60px;
+    width: auto;
     border-radius: 50%;
+    transition: transform 0.3s ease;
+
 }
 
 .featured-photo {
