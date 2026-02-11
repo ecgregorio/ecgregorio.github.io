@@ -113,6 +113,17 @@ footer {
     margin: 0 auto;
 } /* center content (add margin) */
 
+.footer-link {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: var(--accent-hover);
+    text-decoration: underline;
+}
+
 #about {
     display: flex;
     flex-wrap: wrap; /* so the content doesnt overflow on mobile */
