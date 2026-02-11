@@ -1,11 +1,11 @@
 :root {
-    --bg-color: #121212;
-    --section-bg: #1e1e1e;
-    --text-color: #e0e0e0;
-    --secondary-text: #b0b0b0;
-    --accent-color: #00bfa6;
-    --accent-hover: #00ffa1;
-    --footer-bg: rgb(30,30,30,0.9);
+    --bg-color: #1a1b26;           /* Deep, soft navy */
+    --section-bg: rgba(36, 40, 59, 0.9); /* Opaque enough to hide background "noise" */
+    --text-color: #ffffff;         /* Soft blue-white (low contrast for eye comfort) */
+    --secondary-text: #9aa5ce;     /* Muted blue-grey */
+    --accent-color: #9ece6a;       /* Soft Sage Green - the "Backend" look */
+    --accent-hover: #b9f27c;       /* A gentle glow */
+    --footer-bg: rgba(26, 27, 38, 0.95);
 }
 
 .autobiography {
@@ -49,8 +49,9 @@ section {
     margin-bottom: 60px;
     background-color: rgb(30, 30, 30, 0.8);
     padding: 30px;
+    border: 1px solid rgba(158, 206, 106. 0.1);
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
     scroll-margin-top: 100px;
 }
 
@@ -269,7 +270,7 @@ footer {
 }
 
 #skills li {
-    background-color: #4fb08d; /* accent color */
+    background-color: #9ece6a; /* accent color */
     color: #121212;             /* text on badge */
     padding: 15px;
     border-radius: 12px;
@@ -283,6 +284,11 @@ footer {
     transition: background-color 0.5s ease; /* cool loading effect (refresh page to see)*/
 }
 
+h1, h2, h3, .skill-name {
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
 /* move box design here */
 .skill-name {
     background-color: transparent;
