@@ -53,6 +53,8 @@ section {
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
     scroll-margin-top: 100px;
+    height: auto;
+    overflow: hidden;
 }
 
 nav a {
@@ -149,7 +151,7 @@ footer {
 
 .featured-text {
     flex: 1;
-    min-width: 100%;
+    min-width: 280px;
 }
 
 .featured-text h1 {
@@ -174,6 +176,7 @@ footer {
     gap: 15px;
     margin-top: 20px;
     color: #ffffff;
+    flex-wrap: wrap;
 }
 
 .social-btn {
