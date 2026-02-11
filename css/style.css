@@ -285,11 +285,6 @@ footer {
     transition: background-color 0.5s ease; /* cool loading effect (refresh page to see)*/
 }
 
-h1, h2, h3, .skill-name {
-    font-family: 'Courier New', Courier, monospace;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
 /* move box design here */
 .skill-name {
     background-color: transparent;
