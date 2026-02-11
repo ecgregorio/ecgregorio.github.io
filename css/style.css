@@ -149,7 +149,7 @@ footer {
 
 .featured-text {
     flex: 1;
-    min-width: 280px;
+    min-width: 100%;
 }
 
 .featured-text h1 {
@@ -161,7 +161,7 @@ footer {
 .featured-photo {
     height: auto;
     flex: 1;
-    min-width: 300px;
+    min-width: 250px;
     max-width: 100%;
     width: 100%;
     border-radius: 15px;
